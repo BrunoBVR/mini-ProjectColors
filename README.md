@@ -12,3 +12,7 @@ The notebook `projectColors.ipynb` has the implementation from the article with 
 ## Building the app
 
 Inside the `streamlit-app` folder there is a script for building a streamlit app to let the user upload an image and have it analyzed. The app lets users, beside uploading their own image (in formats `jpg`, `jpeg` and `png`), choose the number of clusters with a simple slider bar.
+
+## Shared app
+
+[Here](https://share.streamlit.io/brunobvr/mini-projectcolors/main/streamlit-app/color-app.py)
