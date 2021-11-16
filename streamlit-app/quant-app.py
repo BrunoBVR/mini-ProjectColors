@@ -1,12 +1,8 @@
 import streamlit as st
-from collections import Counter
 from sklearn.cluster import KMeans
-from matplotlib import colors, image
 import matplotlib.pyplot as plt
 import numpy as np
 import cv2
-from PIL import Image
-from matplotlib import cm
 
 st.title("Color Quantization")
 
@@ -39,7 +35,7 @@ def quant_img(image_as_array, k):
     axs[0].set_title('Original image')
     axs[1].imshow(quantized_image)
     axs[1].axis('off')
-    axs[1].set_title('Color qunatized image with '+str(k)+' distinct colors')
+    axs[1].set_title('Color quantized image with '+str(k)+' distinct colors')
     
     return fig
 
