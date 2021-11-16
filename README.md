@@ -16,3 +16,15 @@ Inside the `streamlit-app` folder there is a script for building a streamlit app
 ## Shared app
 
 [Here](https://share.streamlit.io/brunobvr/mini-projectcolors/main/streamlit-app/color-app.py)
+
+# Mini-project: Color quantizer with streamlit
+
+This one is even more fun! We can create cool visuals using color quantization: Read about it [here](https://en.wikipedia.org/wiki/Color_quantization).
+
+The notebook [colorQuantization](colorQuantization.ipynb) has the idea as a function using KMeans and some basic matplotlib.
+
+Inside the `streamlit-app` folder there is a script for building a streamlit app to let the user upload an image and have it quantized ([qunat-app.py](qunat-app.py)). The app lets users, beside uploading their own image (in formats `jpg`, `jpeg` and `png`), choose the number of distinct colors with a simple slider bar.
+
+## Shared app
+
+[Here](https://share.streamlit.io/brunobvr/mini-projectcolors/main/streamlit-app/quant-app.py)
